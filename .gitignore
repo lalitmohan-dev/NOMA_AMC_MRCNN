@@ -3,5 +3,4 @@
 *.mat
 *.jpg
 *.py
-!data_loaders.py
-!NOMA_AMC_dataset_generation.m
+/myfile.mat
