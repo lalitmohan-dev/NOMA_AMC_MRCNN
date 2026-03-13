@@ -3,4 +3,6 @@
 *.mat
 *.jpg
 *.py
-/myfile.mat
+/myfile_ratio2.mat
+/venv
+/venv_wsl_311

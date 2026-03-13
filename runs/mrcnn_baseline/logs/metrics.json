@@ -1,0 +1,49 @@
+{
+  "run_name": "mrcnn_baseline",
+  "mat_file": "myfile_ratio2.mat",
+  "overall_acc": 69.7406,
+  "best_val_acc": 69.6971,
+  "high_snr_acc": 96.0912,
+  "low_snr_acc": 38.4592,
+  "epochs_run": 63,
+  "avg_confidence": 71.432,
+  "per_class_acc": {
+    "BPSK": 87.1873,
+    "QPSK": 64.1325,
+    "8PSK": 53.3768,
+    "16QAM": 74.1686
+  },
+  "snr_acc": {
+    "-10": 30.8564,
+    "-8": 33.9864,
+    "-6": 37.272,
+    "-4": 42.7187,
+    "-2": 47.5031,
+    "0": 52.2563,
+    "2": 59.025,
+    "4": 69.7055,
+    "6": 78.4348,
+    "8": 85.3706,
+    "10": 91.8524,
+    "12": 94.6109,
+    "14": 96.5869,
+    "16": 97.6014,
+    "18": 97.904,
+    "20": 97.9471
+  },
+  "config": {
+    "mat_file": "myfile_ratio2.mat",
+    "N": 200,
+    "num_classes": 4,
+    "epochs": 100,
+    "batch_size": 512,
+    "lr": 0.001,
+    "val_split": 0.2,
+    "test_split": 0.1,
+    "patience": 15,
+    "lr_patience": 7,
+    "lr_factor": 0.5,
+    "run_name": "mrcnn_baseline",
+    "seed": 42
+  }
+}

@@ -11,7 +11,7 @@ import matplotlib.gridspec as gridspec
 # ─────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────
-MAT_FILE    = "myfile.mat"
+MAT_FILE    = "myfile_ratio2.mat"
 CLASS_NAMES = ['BPSK', 'QPSK', '8PSK', '16QAM']
 SNR_LEVELS  = list(range(-10, 22, 2))   # -10 to +20 step 2
 
